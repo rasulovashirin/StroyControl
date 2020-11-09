@@ -1,0 +1,100 @@
+.delivery {
+  margin-bottom: 124px;
+  }
+  .delivery__heading {
+    margin-top: 0;
+    margin-bottom: 21px;
+    color: $heading-color;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+  }
+  .delivery__text {
+    margin-top: 0;
+    margin-bottom: 43px;
+    max-width: 643px;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .delivery__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    max-width: 100%;
+  }
+  .delivery__item {
+    display: flex;
+    align-items: flex-start;
+    max-width: 334px;
+    margin-right: 10px;
+    margin-bottom: 33px;
+    padding-left: 64px;
+background-image: url();
+background-repeat: no-repeat;
+background-size: 48px 48px;
+background-position: left top;
+  }
+
+  .delivery__item--beton {
+    background-image: url("../img/beton.png");
+  }
+
+  .delivery__item--waste{
+    background-image: url("../img/Waste.png");
+  }
+  .delivery__item--formwork {
+    background-image: url("../img/formwork.png");
+  }
+  .delivery__item--precasts {
+    background-image: url("../img/Precasts.png");
+  }
+  .delivery__item--facades {
+    background-image: url("../img/Facades.png");
+  }
+  .delivery__item--fitout {
+    background-image: url("../img/beton.png");
+  }
+  .delivery__item--scaffolding {
+    background-image: url("../img/Scaffolding.png");
+  }
+  .delivery__item--fr {
+    background-image: url("../img/fr.png");
+  }
+  .delivery__item--mp {
+    background-image: url("../img/mp.png");
+  }
+  // .delivery__item-inner{
+  //   max-width: 270px;
+  // }
+  // .delivery__item-inner::before{
+
+  //   width: 48px;
+  //   height: 48px;
+  //   background-position:center;
+  //   background-size: contain;
+  //   background-repeat: no-repeat;
+  //   content: "";
+  // }
+  .delivery__item-heading {
+    margin-top: 0;
+    margin-bottom: 11px;
+    color: $heading-color;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .delivery__item-text {
+    margin: 0;
+  }
+  .delivery__bottom-text{
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+  }

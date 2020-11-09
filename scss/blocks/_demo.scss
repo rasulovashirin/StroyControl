@@ -1,0 +1,32 @@
+.container--demo{
+  margin-bottom: 144px;
+}
+.demo {
+  padding: 40px;
+  background-color: #F6F8F9;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  // justify-content: space-between;
+}
+.demo::before{
+  width: 40px;
+  height: 40px;
+  background-image: url("../img/demo.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-right: 24px;
+  content: "";
+}
+.demo__text {
+  margin: 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #212B31;
+margin-right: auto;
+}
+.demo__bold-text {
+  font-weight: 500;
+}

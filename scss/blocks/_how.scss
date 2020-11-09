@@ -1,0 +1,103 @@
+.how {
+}
+.how__container{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.how__left {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  max-width: 462px;
+}
+.how__left::after{
+  width: 336px;
+  height: 392px;
+  background-image: url("../../img/how.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  content: "";
+}
+.how__heading {
+  margin-top: 0;
+  margin-bottom: 21px;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 48px;
+  color: #212B31;
+}
+.how__text {
+  margin-top: 0;
+  margin-bottom: 60px;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.how__right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.how__list {
+  position: relative;
+  z-index: 1;
+  max-width: 520px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  margin-bottom: 30px;
+}
+.how__item:not(:last-child){
+  margin-bottom: 30px;
+}
+.how__item::before{
+  position: absolute;
+  z-index: 1;
+  right: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #72787D;
+  margin-right: 32px;
+  content: "";
+}
+.how__item--first::before{
+  content: "1";
+}
+.how__item--second::before{
+  content:"2" ;
+}
+.how__item--third::before{
+  content: "3";
+}
+.how__item--fourth::before{
+  content: "4";
+}
+
+.how__item-heading {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 24px;
+  color: #212B31;
+
+}
+.how__item-text {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.how__button-box {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+
+}
+.how__dark-button{
+  margin-right: 16px;
+}

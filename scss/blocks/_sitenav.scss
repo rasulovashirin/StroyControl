@@ -1,0 +1,105 @@
+.site-nav {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+.site-nav__list {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  margin-right: 20px;
+}
+.site-nav__item:not(:last-child) {
+  margin-right: 22px;
+}
+.site-nav__link {
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration: none;
+  color: #72787D;
+  white-space: nowrap;
+}
+.site-nav__link:hover{
+  color: #036FC7;
+}
+.site-nav__item--active .site-nav__link{
+  color: #036FC7;
+}
+.demo-link {
+  display: block;
+  padding: 8px 19px;
+  text-decoration: none;
+  background-color: #212B31;
+  color: #fff;
+  border: 1px solid #212B31;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.16);
+  border-radius: 4px;
+  white-space: nowrap;
+}
+.demo-link:hover{
+  color: #212B31;
+  background-color: #fff;
+  border-color: #fff;
+}
+
+@media only screen and (max-width:1250px) {
+
+  .site-nav{
+    margin-left:0;
+  }
+  .site-nav__item:not(:last-child){
+    margin-right: 15px;
+  }
+}
+@media only screen and (max-width:950px){
+  .demo-link{
+    display: none;
+  }
+}
+@media only screen and (max-width:760px){
+  .site-nav{
+    display: none;
+  }
+.site-header--open .site-nav{
+  position: fixed;
+  width: 70%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  display: block;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color:  #212b31;
+  text-align: center;
+  padding: 30px;
+  padding-top: 50px;
+}
+.site-header--open .site-nav__list{
+  flex-direction: column;
+  margin-right: 0;
+  margin-bottom: 30px;
+}
+.site-header--open .site-nav__item{
+  margin-right: 0;
+}
+.site-header--open .site-nav__item:not(:last-child){
+  margin-bottom: 20px;
+}
+.site-header--open .site-nav__link{
+  color: #fff;
+}
+.site-header--open .site-nav__item--active .site-nav__link,
+.site-header--open .site-nav__link:hover{
+  color: #036FC7;
+}
+.site-header--open .demo-link{
+  display: inline-block;
+  justify-self: center;
+  background-color: $text-color;
+  color: #ffff;
+}
+
+}

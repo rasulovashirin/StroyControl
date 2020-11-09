@@ -1,0 +1,26 @@
+.button {
+  display: block;
+  text-decoration: none;
+  padding: 12px 24px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.light-button{
+  border-color: #DADEDF;
+  background-color: #fff;
+  color: #212B31;
+}
+.dark-button{
+  border-color: #fff ;
+  background-color: #212B31;
+  color:#fff;
+}
+.button-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 88px;
+}

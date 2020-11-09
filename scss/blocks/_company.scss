@@ -1,0 +1,31 @@
+.company {
+  margin-bottom: 78px;
+}
+.company__list {
+  max-width: 1056px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  padding-top: 56px;
+  padding-bottom: 46px;
+  list-style-type: none;
+  border-top: 1px solid #EEF2F3;
+  border-bottom: 1px solid #EEF2F3;
+}
+.company__item{
+  margin-bottom: 10px;
+}
+.company__item:not(:first-child) {
+  margin-left:39px;
+}
+
+.company__link {
+}
+.company__img {
+  display: block;
+  width: 180px;
+  height: auto;
+}
